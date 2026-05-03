@@ -1,0 +1,36 @@
+{
+  "name": "IPL Intelligence Platform",
+  "short_name": "IPL Intel",
+  "description": "Decision support system for IPL teams, analysts and commentators",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%230f172a'/><text y='.9em' font-size='80' x='10'>🏏</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["sports", "productivity", "utilities"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Batting Stats",
+      "url": "/",
+      "description": "View IPL batting leaderboard"
+    },
+    {
+      "name": "Player Profile",
+      "url": "/",
+      "description": "Search any IPL player profile"
+    },
+    {
+      "name": "Auction Engine",
+      "url": "/",
+      "description": "IPL 2026 auction simulation"
+    }
+  ]
+}
