@@ -94,7 +94,7 @@
 </div>
 
 <script>
-const API = 'http://localhost:8000';
+const API = window.location.origin;
 
 // If already logged in redirect to home
 const token = localStorage.getItem('ipl_token');
@@ -146,7 +146,7 @@ async function doLogin() {
     setTimeout(() => { window.location.href = '/'; }, 800);
 
   } catch (err) {
-    showError('Cannot connect to server. Make sure python run.py is running.');
+    showError('Cannot connect to the server.');
   } finally {
     btn.disabled = false;
     btn.innerHTML = 'Sign In';
